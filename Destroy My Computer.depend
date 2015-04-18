@@ -1,0 +1,980 @@
+# depslib dependency file v1.0
+1300336184 source:/home/dylan/cpp/Destroy My Computer/main.cpp
+	<math.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctime>
+	<SDL.h>
+	<SDL_image.h>
+	<dirent.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<thread>
+	<vector>
+	<random>
+	"ogg.h"
+	"damage.h"
+	"flame.h"
+	"structs.h"
+	<windows.h>
+
+1299705386 >
+
+1278057011 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1273984075 e.h"
+
+1278057011 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1300334486 
+
+1278057011 /usr/include/SDL/SDL_platform.h
+
+1278057011 /usr/include/SDL/begin_code.h
+
+1278057011 /usr/include/SDL/close_code.h
+
+1278057011 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_keysym.h
+
+1278057011 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1278057011 .h"
+
+1278057011 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1064582396 /home/dylan/cpp/Destroy My Computer/corona.h
+	<stddef.h>
+
+1064582395 source:/home/dylan/cpp/Destroy My Computer/corona/Corona.cpp
+	<memory>
+	<string>
+	<vector>
+	<string.h>
+	<ctype.h>
+	"corona.h"
+	"MemoryFile.h"
+	"Open.h"
+	"Save.h"
+	"SimpleImage.h"
+
+1062482485 ge.h"
+
+1064582396 /home/dylan/cpp/Destroy My Computer/corona/corona.h
+	<stddef.h>
+
+1045534550 /home/dylan/cpp/Destroy My Computer/corona/MemoryFile.h
+	"corona.h"
+	"Types.h"
+	"Utility.h"
+
+1018405687 "
+
+1016191333 /home/dylan/cpp/Destroy My Computer/corona/Types.h
+
+1064560628 /home/dylan/cpp/Destroy My Computer/corona/Utility.h
+	<algorithm>
+	"corona.h"
+	"Types.h"
+
+1040989613 /home/dylan/cpp/Destroy My Computer/corona/Open.h
+	"corona.h"
+
+1042284609 /home/dylan/cpp/Destroy My Computer/corona/Save.h
+	"corona.h"
+
+1044039759 /home/dylan/cpp/Destroy My Computer/corona/SimpleImage.h
+	"corona.h"
+	"Types.h"
+	"Utility.h"
+
+1064560628 source:/home/dylan/cpp/Destroy My Computer/corona/MemoryFile.cpp
+	<string.h>
+	"MemoryFile.h"
+	"Utility.h"
+
+1058396988 source:/home/dylan/cpp/Destroy My Computer/corona/SavePNG.cpp
+	<memory>
+	<png.h>
+	"Debug.h"
+	"Save.h"
+	"Types.h"
+
+1016191333 /home/dylan/cpp/Destroy My Computer/corona/Debug.h
+	<stdio.h>
+	<string>
+
+1042284992 source:/home/dylan/cpp/Destroy My Computer/corona/SaveTGA.cpp
+	<memory>
+	<png.h>
+	"Debug.h"
+	"Save.h"
+	"Utility.h"
+
+1028256177 source:/home/dylan/cpp/Destroy My Computer/corona/Debug.cpp
+	"Debug.h"
+
+1045526423 source:/home/dylan/cpp/Destroy My Computer/corona/DefaultFileSystem.cpp
+	<stdio.h>
+	"Utility.h"
+
+1040981622 source:/home/dylan/cpp/Destroy My Computer/corona/OpenBMP.cpp
+	<string.h>
+	"corona.h"
+	"SimpleImage.h"
+	"Utility.h"
+
+1024686783 source:/home/dylan/cpp/Destroy My Computer/corona/OpenGIF.cpp
+	<stdio.h>
+	<string.h>
+	<gif_lib.h>
+	"Debug.h"
+	"Open.h"
+	"SimpleImage.h"
+	"Utility.h"
+
+1062482485 source:/home/dylan/cpp/Destroy My Computer/corona/OpenJPEG.cpp
+	<stdio.h>
+	<string.h>
+	<setjmp.h>
+	<jpeglib.h>
+	"Open.h"
+	"SimpleImage.h"
+
+1040651597 source:/home/dylan/cpp/Destroy My Computer/corona/OpenPCX.cpp
+	<stdio.h>
+	<string.h>
+	"Debug.h"
+	"Open.h"
+	"SimpleImage.h"
+	"Utility.h"
+
+1040867541 source:/home/dylan/cpp/Destroy My Computer/corona/OpenPNG.cpp
+	<png.h>
+	"Debug.h"
+	"Open.h"
+	"SimpleImage.h"
+	"Utility.h"
+
+1299626913 source:/home/dylan/cpp/Destroy My Computer/corona/Convert.cpp
+	<map>
+	<utility>
+	<memory.h>
+	"corona.h"
+	"Debug.h"
+	"SimpleImage.h"
+	"Utility.h"
+
+1299626927 source:/home/dylan/cpp/Destroy My Computer/corona/OpenTGA.cpp
+	<algorithm>
+	"Debug.h"
+	"Open.h"
+	"SimpleImage.h"
+	"Utility.h"
+	<memory.h>
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcapimin.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jinclude.h
+	"jconfig.h"
+	<stddef.h>
+	<stdlib.h>
+	<sys/types.h>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jconfig.h
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jmorecfg.h
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jpegint.h
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jerror.h
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcapistd.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jccoefct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jccolor.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcdctmgr.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdct.h
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jchuff.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jchuff.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jchuff.h
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcinit.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcmainct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcmarker.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcmaster.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcomapi.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcparam.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcphuff.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jchuff.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcprepct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jcsample.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jctrans.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdapimin.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdapistd.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdatadst.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jerror.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdatasrc.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jerror.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdcoefct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdcolor.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jddctmgr.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdhuff.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdhuff.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdhuff.h
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdinput.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdmainct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdmarker.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdmaster.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdmerge.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdphuff.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdhuff.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdpostct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdsample.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jdtrans.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jerror.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jversion.h"
+	"jerror.h"
+	<windows.h>
+	"jerror.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jversion.h
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jfdctflt.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jfdctfst.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jfdctint.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jidctflt.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jidctfst.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jidctint.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jidctred.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jmemmgr.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jmemsys.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jmemsys.h
+	<Files.h>
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jmemnobs.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jmemsys.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jquant1.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jquant2.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/jpeg-6b/jutils.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/png.c
+	"png.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngconf.h
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	"alloc.h"
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngerror.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pnggccrd.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngget.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngmem.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngpread.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngread.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngrio.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngrtran.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngrutil.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngset.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngtrans.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngvcrd.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngwio.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngwrite.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngwtran.c
+	"png.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/libpng-1.2.1/pngwutil.c
+	"png.h"
+
+1022064557 source:/home/dylan/cpp/Destroy My Computer/corona/libungif-4.1.0/dgif_lib.c
+	<io.h>
+	<alloc.h>
+	<stdlib.h>
+	<sys\stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdlib.h>
+	<fcntl.h>
+	<stdio.h>
+	<string.h>
+	"gif_lib.h"
+	"gif_lib_private.h"
+
+1022064557 rivate.h"
+
+1022064557 /home/dylan/cpp/Destroy My Computer/corona/libungif-4.1.0/gif_lib.h
+
+1022064557 /home/dylan/cpp/Destroy My Computer/corona/libungif-4.1.0/gif_lib_private.h
+	"gif_lib.h"
+
+1022064557 source:/home/dylan/cpp/Destroy My Computer/corona/libungif-4.1.0/gif_err.c
+	<stdio.h>
+	"gif_lib.h"
+
+1022064557 source:/home/dylan/cpp/Destroy My Computer/corona/libungif-4.1.0/gifalloc.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"gif_lib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/adler32.c
+	"zlib.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/zlib.h
+	"zconf.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/zconf.h
+	<windows.h>
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/compress.c
+	"zlib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/crc32.c
+	"zlib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/deflate.c
+	"deflate.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/deflate.h
+	"zutil.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/gzio.c
+	<stdio.h>
+	"zutil.h"
+	<stdarg.h>
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/infblock.c
+	"zutil.h"
+	"infblock.h"
+	"inftrees.h"
+	"infcodes.h"
+	"infutil.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/infblock.h
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/inftrees.h
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/infcodes.h
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/infutil.h
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/infcodes.c
+	"zutil.h"
+	"inftrees.h"
+	"infblock.h"
+	"infcodes.h"
+	"infutil.h"
+	"inffast.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/inffast.h
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"infblock.h"
+	"infcodes.h"
+	"infutil.h"
+	"inffast.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/inflate.c
+	"zutil.h"
+	"infblock.h"
+
+1018405687 h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/inftrees.c
+	"zutil.h"
+	"inftrees.h"
+	"inffixed.h"
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/inffixed.h
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/infutil.c
+	"zutil.h"
+	"infblock.h"
+	"inftrees.h"
+	"infcodes.h"
+	"infutil.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1018405687 /home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/trees.h
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/uncompr.c
+	"zlib.h"
+
+1018405687 source:/home/dylan/cpp/Destroy My Computer/corona/zlib-1.1.4/zutil.c
+	"zutil.h"
+
+1299704835 source:/home/dylan/cpp/Destroy My Computer/sound.cpp
+	"sound.h"
+
+1299705386 /home/dylan/cpp/Destroy My Computer/sound.h
+	<stdlib.h>
+	<math.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/alut.h>
+
+1299723491 source:/home/dylan/cpp/Destroy My Computer/ogg.cpp
+	"ogg.h"
+
+1299710690 /home/dylan/cpp/Destroy My Computer/ogg.h
+	<string.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/alut.h>
+	"ogg.h"
+	<vorbis/vorbisfile.h>
+
+1299714290 rbisfile.h>
+
+1273984075 /usr/include/SDL/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1300334433 source:/home/dylan/cpp/Destroy My Computer/damage.cpp
+	"damage.h"
+
+1300334486 /home/dylan/cpp/Destroy My Computer/damage.h
+	<ctime>
+	"structs.h"
+	<GL/gl.h>
+
+1300334426 source:/home/dylan/cpp/Destroy My Computer/flame.cpp
+	"flame.h"
+
+1300334280 /home/dylan/cpp/Destroy My Computer/flame.h
+	"damage.h"
+	<chrono>
+
+1300334443 /home/dylan/cpp/Destroy My Computer/structs.h
+
+1300334426 source:h:\c++\destroy my computer\flame.cpp
+	"flame.h"
+
+1300334280 h:\c++\destroy my computer\flame.h
+	"damage.h"
+	<chrono>
+
+1300334486 h:\c++\destroy my computer\damage.h
+	<ctime>
+	"structs.h"
+	<GL/gl.h>
+
+1300334442 h:\c++\destroy my computer\structs.h
+
+1299727090 source:h:\c++\destroy my computer\ogg.cpp
+	"ogg.h"
+
+1299714290 h:\c++\destroy my computer\ogg.h
+	<string.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/alut.h>
+	"ogg.h"
+	<vorbis/vorbisfile.h>
+
+1300334432 source:h:\c++\destroy my computer\damage.cpp
+	"damage.h"
+
+1300334432 source:/media/801D-2974/C++/C++/Destroy My Computer/damage.cpp
+	"damage.h"
+
+1300334486 /media/801D-2974/C++/C++/Destroy My Computer/damage.h
+	<ctime>
+	"structs.h"
+	<GL/gl.h>
+
+1300334442 /media/801D-2974/C++/C++/Destroy My Computer/structs.h
+
+1300334426 source:/media/801D-2974/C++/C++/Destroy My Computer/flame.cpp
+	"flame.h"
+
+1300334280 /media/801D-2974/C++/C++/Destroy My Computer/flame.h
+	"damage.h"
+	<chrono>
+
+1299723490 source:/media/801D-2974/C++/C++/Destroy My Computer/ogg.cpp
+	"ogg.h"
+
+1299710690 /media/801D-2974/C++/C++/Destroy My Computer/ogg.h
+	<string.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/alut.h>
+	"ogg.h"
+	<vorbis/vorbisfile.h>
+
+1314328913 source:/home/dylan/cpp/Destroy My Computer/damage.cpp
+	"damage.h"
+
+1314406164 /home/dylan/cpp/Destroy My Computer/damage.h
+	"common.h"
+	<iostream>
+	<list>
+
+1314302606 /home/dylan/cpp/Destroy My Computer/structs.h
+
+1314405017 source:/home/dylan/cpp/Destroy My Computer/flame.cpp
+	"flame.h"
+	<chrono>
+
+1314407711 /home/dylan/cpp/Destroy My Computer/flame.h
+	"common.h"
+	"damage.h"
+	<chrono>
+
+1299723491 source:/home/dylan/cpp/Destroy My Computer/ogg.cpp
+	"ogg.h"
+
+1299710690 /home/dylan/cpp/Destroy My Computer/ogg.h
+	<string.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/alut.h>
+	"ogg.h"
+	<vorbis/vorbisfile.h>
+
+1314409032 source:/home/dylan/cpp/Destroy My Computer/main.cpp
+	"common.h"
+	<mutex>
+	"ogg.h"
+	"damage.h"
+	"flame.h"
+	"windows_specific.h"
+
+1300751450 source:/home/dylan/cpp/Destroy My Computer/windows_specific.cpp
+	"windows_specific.h"
+
+1300751449 /home/dylan/cpp/Destroy My Computer/windows_specific.h
+	<windows.h>
+
+1314409706 /home/dylan/cpp/Destroy My Computer/common.h
+	<iostream>
+	<cmath>
+	<algorithm>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<random>
+	<ctime>
+	<thread>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	"flame.h"
+
+1314409132 source:/home/dylan/cpp/Destroy My Computer/graphics.cpp
+	"common.h"
+	<mutex>
+
+1314311351 source:/home/dylan/cpp/Destroy My Computer/io.cpp
+	"common.h"
+	<dirent.h>
+
+1314308245 /home/dylan/cpp/Destroy My Computer/io.h
+	"common.h"
+
+1314307512 source:/home/dylan/cpp/Destroy My Computer/math.cpp
+	"common.h"
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Destroy My Computer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Destroy My Computer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-std=c++0x" />
+					<Add option="-g" />
+					<Add option="-02" />
+					<Add option="-pthread" />
+				</Compiler>
+				<Linker>
+					<Add library="alut" />
+					<Add library="SDL" />
+					<Add library="SDL_image" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+					<Add library="vorbisfile" />
+					<Add library="GL" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="rm -rf $(TARGET_OUTPUT_DIR)res" />
+					<Add after="mkdir $(TARGET_OUTPUT_DIR)res" />
+					<Add after="mkdir $(TARGET_OUTPUT_DIR)res/weaps" />
+					<Add after="mkdir $(TARGET_OUTPUT_DIR)res/riflesnds" />
+					<Add after="cp -fv res/*.ogg $(TARGET_OUTPUT_DIR)res/" />
+					<Add after="cp -fv res/numbers.png $(TARGET_OUTPUT_DIR)res/" />
+					<Add after="cp -fv res/test.png $(TARGET_OUTPUT_DIR)res/" />
+					<Add after="cp -fv res/flameanim.png $(TARGET_OUTPUT_DIR)res/" />
+					<Add after="cp -fv res/sghole.png $(TARGET_OUTPUT_DIR)res/" />
+					<Add after="cp -fv res/riflehole.png $(TARGET_OUTPUT_DIR)res/" />
+					<Add after="cp -fv res/bullethole.png $(TARGET_OUTPUT_DIR)res/" />
+					<Add after="cp -fv res/weaps/*.png $(TARGET_OUTPUT_DIR)res/weaps/" />
+					<Add after="cp -fv res/riflesnds/*.ogg $(TARGET_OUTPUT_DIR)res/riflesnds/" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Destroy My Computer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+			<Add library="X11" />
+		</Linker>
+		<Unit filename="common.h" />
+		<Unit filename="damage.h" />
+		<Unit filename="flame.h" />
+		<Unit filename="graphics.cpp" />
+		<Unit filename="io.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="ogg.cpp" />
+		<Unit filename="ogg.h" />
+		<Unit filename="res/bgm.ogg" />
+		<Unit filename="res/bullethole.png" />
+		<Unit filename="res/fire.ogg" />
+		<Unit filename="res/flameanim.png" />
+		<Unit filename="res/machinegun.ogg" />
+		<Unit filename="res/numbers.png" />
+		<Unit filename="res/riflehole.png" />
+		<Unit filename="res/riflesnds/01.ogg" />
+		<Unit filename="res/riflesnds/02.ogg" />
+		<Unit filename="res/riflesnds/03.ogg" />
+		<Unit filename="res/riflesnds/04.ogg" />
+		<Unit filename="res/riflesnds/05.ogg" />
+		<Unit filename="res/riflesnds/06.ogg" />
+		<Unit filename="res/sghole.png" />
+		<Unit filename="res/shotgun.ogg" />
+		<Unit filename="res/simplenumbers.png" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
